@@ -1,0 +1,7 @@
+{
+    "require": {
+        "mongodb/mongodb": "1.9.*",
+        "composer-runtime-api": "^2.0"
+    },
+    "metadata-url": "/p2/%package%.json"
+}
