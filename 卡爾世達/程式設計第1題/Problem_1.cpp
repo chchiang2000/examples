@@ -1,45 +1,83 @@
-// 沙漏.cpp : 此檔案包含 'main' 函式。程式會於該處開始執行及結束執行。
+// Problem_1.cpp : 此檔案包含 'main' 函式。程式會於該處開始執行及結束執行。
 //
 
 #include <iostream>
 
-void printStar(int width)
+#define SIZE 5
+
+void process(int *p, int len)
 {
-    int i, j, k, l, m;
+	std::cout << "process:\n";
+	for (int i = 0; i < len; i++)
+	{
+		std::cout << "hello " << p[i] << '\n';
+	}
+}
 
-    for (i = width; i >= -width; i -= 2)
-    {
-        if (i == -1)
-            continue;
-
-        if (i >= 0)
-            k = i;
-        else
-            k = i * -1;
-
-        l = width - k + 1;
-        l -= 2;
-
-        if (l >= 0)
-            for (m = 0; m < l; m += 2)
-                std::cout << ' ';
-
-        for (j = 0; j < k; j++)
-        {
-            std::cout << '*';
-        }
-
-        std::cout << '\n';
-    }
-
+void bubble_sort(int array[], int n)
+{
+	for (int i = 0; i < n - 1; i++)
+	{
+		for (int j = 0; j < n - i - 1; j++)
+		{
+			if (array[j] > array[j + 1])
+			{
+				int temp = array[j];
+				array[j] = array[j + 1];
+				array[j + 1] = temp;
+			}
+		}
+	}
 }
 
 int main()
 {
     // std::cout << "Hello World!\n";
-
-    printStar(17);
-
+    
+	int size = SIZE;
+	
+	// Declare an array of integers to be allocated on the stack;
+	int numbers[size];
+	
+	// Assign a value to each subsequent element
+	// (numbers[0] is the first element in the array.) 
+	for (int i = 0; i < size; i++)
+	{
+		std::cin >> numbers[i];
+	}
+	
+	// process(numbers, size);
+	
+	/*
+	std::cout << "排序前 = ";
+	for (int i = 0; i < size; i++)
+	{
+		std::cout << numbers[i] << ' ';
+	}
+	std::cout << '\n';
+	*/
+	bubble_sort(numbers, size);
+	
+	std::cout << "最大值: " << numbers[size - 1] << '\n';
+	
+	std::cout << "最小值: " << numbers[0];
+	
+	/*
+	std::cout << "排序後 = ";
+	for (int i = 0; i < size; i++)
+	{
+		std::cout << numbers[i] << ' ';
+	}
+	std::cout << '\n';
+	*/
+	
+	/*
+	for (int i = 0; i < size; i++)
+	{
+		std::cout << numbers[i];
+	}
+    */
+    
     return 0;
 }
 
