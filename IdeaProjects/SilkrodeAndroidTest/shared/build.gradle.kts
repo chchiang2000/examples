@@ -28,6 +28,7 @@ kotlin {
         val androidMain by getting {
             dependencies {
                 implementation("com.google.android.material:material:1.2.1")
+                implementation("io.reactivex.rxjava3:rxjava:3.0.13")
             }
         }
         val androidTest by getting {
