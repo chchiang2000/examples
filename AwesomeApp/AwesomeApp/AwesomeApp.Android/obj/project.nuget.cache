@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kKNqjAnyjteMl+Xtl9e6dh6DK3yrrxufZ2YolbEOVHt793EP1Rzsub48fER7Zp4DJfXVEyJXQIgalvULrgf9Rg==",
+  "dgSpecHash": "blLccsXhao+uZ8hDe9lAo7fFQd0OJ3UbRjqpS7pKFBdo08col/p32FgE0HvyxIj6BVmKl8QaEAz5kDWLTLXd2Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\river\\source\\repos\\AwesomeApp\\AwesomeApp\\AwesomeApp.Android\\AwesomeApp.Android.csproj",
+  "projectFilePath": "C:\\Users\\river\\Source\\Repos\\chchiang2000\\examples\\AwesomeApp\\AwesomeApp\\AwesomeApp.Android\\AwesomeApp.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\river\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",

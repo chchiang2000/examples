@@ -998,11 +998,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\river\\source\\repos\\AwesomeApp\\AwesomeApp\\AwesomeApp.iOS\\AwesomeApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\river\\Source\\Repos\\chchiang2000\\examples\\AwesomeApp\\AwesomeApp\\AwesomeApp.iOS\\AwesomeApp.iOS.csproj",
       "projectName": "AwesomeApp.iOS",
-      "projectPath": "C:\\Users\\river\\source\\repos\\AwesomeApp\\AwesomeApp\\AwesomeApp.iOS\\AwesomeApp.iOS.csproj",
+      "projectPath": "C:\\Users\\river\\Source\\Repos\\chchiang2000\\examples\\AwesomeApp\\AwesomeApp\\AwesomeApp.iOS\\AwesomeApp.iOS.csproj",
       "packagesPath": "C:\\Users\\river\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\river\\source\\repos\\AwesomeApp\\AwesomeApp\\AwesomeApp.iOS\\obj\\",
+      "outputPath": "C:\\Users\\river\\Source\\Repos\\chchiang2000\\examples\\AwesomeApp\\AwesomeApp\\AwesomeApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1025,8 +1025,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\river\\source\\repos\\AwesomeApp\\AwesomeApp\\AwesomeApp\\AwesomeApp.csproj": {
-              "projectPath": "C:\\Users\\river\\source\\repos\\AwesomeApp\\AwesomeApp\\AwesomeApp\\AwesomeApp.csproj"
+            "C:\\Users\\river\\Source\\Repos\\chchiang2000\\examples\\AwesomeApp\\AwesomeApp\\AwesomeApp\\AwesomeApp.csproj": {
+              "projectPath": "C:\\Users\\river\\Source\\Repos\\chchiang2000\\examples\\AwesomeApp\\AwesomeApp\\AwesomeApp\\AwesomeApp.csproj"
             }
           }
         }

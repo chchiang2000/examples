@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\river\\source\\repos\\AwesomeApp\\AwesomeApp\\AwesomeApp.Android\\AwesomeApp.Android.csproj": {}
+    "C:\\Users\\river\\Source\\Repos\\chchiang2000\\examples\\AwesomeApp\\AwesomeApp\\AwesomeApp.Android\\AwesomeApp.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\river\\source\\repos\\AwesomeApp\\AwesomeApp\\AwesomeApp.Android\\AwesomeApp.Android.csproj": {
+    "C:\\Users\\river\\Source\\Repos\\chchiang2000\\examples\\AwesomeApp\\AwesomeApp\\AwesomeApp.Android\\AwesomeApp.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\river\\source\\repos\\AwesomeApp\\AwesomeApp\\AwesomeApp.Android\\AwesomeApp.Android.csproj",
+        "projectUniqueName": "C:\\Users\\river\\Source\\Repos\\chchiang2000\\examples\\AwesomeApp\\AwesomeApp\\AwesomeApp.Android\\AwesomeApp.Android.csproj",
         "projectName": "AwesomeApp.Android",
-        "projectPath": "C:\\Users\\river\\source\\repos\\AwesomeApp\\AwesomeApp\\AwesomeApp.Android\\AwesomeApp.Android.csproj",
+        "projectPath": "C:\\Users\\river\\Source\\Repos\\chchiang2000\\examples\\AwesomeApp\\AwesomeApp\\AwesomeApp.Android\\AwesomeApp.Android.csproj",
         "packagesPath": "C:\\Users\\river\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\river\\source\\repos\\AwesomeApp\\AwesomeApp\\AwesomeApp.Android\\obj\\",
+        "outputPath": "C:\\Users\\river\\Source\\Repos\\chchiang2000\\examples\\AwesomeApp\\AwesomeApp\\AwesomeApp.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -34,8 +34,8 @@
         "frameworks": {
           "monoandroid11.0": {
             "projectReferences": {
-              "C:\\Users\\river\\source\\repos\\AwesomeApp\\AwesomeApp\\AwesomeApp\\AwesomeApp.csproj": {
-                "projectPath": "C:\\Users\\river\\source\\repos\\AwesomeApp\\AwesomeApp\\AwesomeApp\\AwesomeApp.csproj"
+              "C:\\Users\\river\\Source\\Repos\\chchiang2000\\examples\\AwesomeApp\\AwesomeApp\\AwesomeApp\\AwesomeApp.csproj": {
+                "projectPath": "C:\\Users\\river\\Source\\Repos\\chchiang2000\\examples\\AwesomeApp\\AwesomeApp\\AwesomeApp\\AwesomeApp.csproj"
               }
             }
           }
@@ -56,14 +56,14 @@
         }
       }
     },
-    "C:\\Users\\river\\source\\repos\\AwesomeApp\\AwesomeApp\\AwesomeApp\\AwesomeApp.csproj": {
+    "C:\\Users\\river\\Source\\Repos\\chchiang2000\\examples\\AwesomeApp\\AwesomeApp\\AwesomeApp\\AwesomeApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\river\\source\\repos\\AwesomeApp\\AwesomeApp\\AwesomeApp\\AwesomeApp.csproj",
+        "projectUniqueName": "C:\\Users\\river\\Source\\Repos\\chchiang2000\\examples\\AwesomeApp\\AwesomeApp\\AwesomeApp\\AwesomeApp.csproj",
         "projectName": "AwesomeApp",
-        "projectPath": "C:\\Users\\river\\source\\repos\\AwesomeApp\\AwesomeApp\\AwesomeApp\\AwesomeApp.csproj",
+        "projectPath": "C:\\Users\\river\\Source\\Repos\\chchiang2000\\examples\\AwesomeApp\\AwesomeApp\\AwesomeApp\\AwesomeApp.csproj",
         "packagesPath": "C:\\Users\\river\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\river\\source\\repos\\AwesomeApp\\AwesomeApp\\AwesomeApp\\obj\\",
+        "outputPath": "C:\\Users\\river\\Source\\Repos\\chchiang2000\\examples\\AwesomeApp\\AwesomeApp\\AwesomeApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
