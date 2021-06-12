@@ -1,0 +1,6 @@
+C:\Users\river\source\repos\chchiang2000\examples\Visual Studio 2019 Projects\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\river\source\repos\chchiang2000\examples\Visual Studio 2019 Projects\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\river\source\repos\chchiang2000\examples\Visual Studio 2019 Projects\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\river\source\repos\chchiang2000\examples\Visual Studio 2019 Projects\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\river\source\repos\chchiang2000\examples\Visual Studio 2019 Projects\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\river\source\repos\chchiang2000\examples\Visual Studio 2019 Projects\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
