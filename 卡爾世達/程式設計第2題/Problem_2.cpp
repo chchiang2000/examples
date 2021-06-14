@@ -10,7 +10,7 @@ void process(int *p, int len)
 	std::cout << "process:\n";
 	for (int i = 0; i < len; i++)
 	{
-		std::cout << "hello " << p[i] << '\n';
+		std::cout << "hello " << p[i] << std::endl;
 	}
 }
 
@@ -53,7 +53,7 @@ int main()
 	{
 		std::cout << numbers[i] << ' ';
 	}
-	std::cout << '\n';
+	std::cout << std::endl;
 	
 	bubble_sort(numbers, size);
 	
@@ -62,7 +62,7 @@ int main()
 	{
 		std::cout << numbers[i] << ' ';
 	}
-	std::cout << '\n';
+	std::cout << std::endl;
 	
 	/*
 	for (int i = 0; i < size; i++)

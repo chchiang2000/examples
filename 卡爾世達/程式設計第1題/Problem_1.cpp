@@ -10,7 +10,7 @@ void process(int *p, int len)
 	std::cout << "process:\n";
 	for (int i = 0; i < len; i++)
 	{
-		std::cout << "hello " << p[i] << '\n';
+		std::cout << "hello " << p[i] << std::endl;
 	}
 }
 
@@ -58,7 +58,7 @@ int main()
 	*/
 	bubble_sort(numbers, size);
 	
-	std::cout << "最大值: " << numbers[size - 1] << '\n';
+	std::cout << "最大值: " << numbers[size - 1] << std::endl;
 	
 	std::cout << "最小值: " << numbers[0];
 	

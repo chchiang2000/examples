@@ -31,7 +31,7 @@ void printStar(int width)
             std::cout << '*';
         }
 
-        std::cout << '\n';
+        std::cout << std::endl;
     }
 
 }

@@ -11,7 +11,7 @@ void process(int *p, int len)
 	std::cout << "process:\n";
 	for (int i = 0; i < len; i++)
 	{
-		std::cout << "hello " << p[i] << '\n';
+		std::cout << "hello " << p[i] << std::endl;
 	}
 }
 
