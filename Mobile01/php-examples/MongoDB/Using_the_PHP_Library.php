@@ -1,5 +1,7 @@
 <?php
 
+require '/home/river/public_html/src/examples/Mobile01/php-examples/MongoDB/vender/autoload.php';
+
 // $dbhost = 'river:river@gettingstarted-shard-00-00.pvk3r.mongodb.net:27017';
 $dbhost = 'localhost:27017';
 
