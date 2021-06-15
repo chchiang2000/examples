@@ -10,11 +10,15 @@ $dbname = 'test';
 
 echo (class_exists("MongoDB\Driver\Manager")), "<br>";
 
-echo "test";
+echo "test<br>";
 
 $mongoClient = new MongoDB\Driver\Manager('mongodb://' . $dbhost);
 
+// $mongoClient = new MongoClient('mongodb://' . $dbhost);
+
+echo "test1<br>";
+
 $db = $mongoClient->$dbname;
 
-echo "Hello World!";
+echo "Hello World!<br>";
 ?>
