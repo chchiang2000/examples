@@ -3,7 +3,7 @@
 require 'vendor/autoload.php';
 
 // $dbhost = 'river:river@gettingstarted-shard-00-00.pvk3r.mongodb.net:27017';
-// $dbhost = 'localhost:27017';
+$dbhost = 'localhost:27017';
 
 // $dbname = 'GettingStarted';
 // $dbname = 'local';
@@ -20,16 +20,15 @@ echo "test1<br>";
 
 // $db = $mongoClient->$dbname;
 $database = (new  MongoDB\Client)->local;
+// $database = (new MongoDB\Client('mongodb://' . $dbhost))->GettingStarted->sample_mflix;
 
 echo "Hello World!<br>";
 
 $cursor = $database->command(['listCollections' => 1]);
 
 foreach ($cursor as $collection) {
-    echo $collection['name'], "\n";
+    echo $collection['name'], "<br>";
 }
-
-echo "<br>";
 
 // $collection = $db->startup_log;
 
