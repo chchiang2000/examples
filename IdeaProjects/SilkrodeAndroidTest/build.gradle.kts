@@ -1,23 +1,24 @@
-buildscript {
-    repositories {
-        gradlePluginPortal()
-        jcenter()
-        google()
-        mavenCentral()
-    }
-    dependencies {
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.10")
-        classpath("com.android.tools.build:gradle:4.1.1")
-    }
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+
+plugins {
+    kotlin("jvm") version "1.5.10"
 }
 
 group = "me.river"
 version = "1.0-SNAPSHOT"
 
-allprojects {
-    repositories {
-        google()
-        jcenter()
-        mavenCentral()
-    }
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation(kotlin("test"))
+}
+
+tasks.test {
+    useJUnit()
+}
+
+tasks.withType<KotlinCompile>() {
+    kotlinOptions.jvmTarget = "1.8"
 }

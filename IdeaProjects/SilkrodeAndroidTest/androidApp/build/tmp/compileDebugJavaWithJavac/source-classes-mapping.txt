@@ -1,2 +1,0 @@
-me/river/androidApp/BuildConfig.java
- me.river.androidApp.BuildConfig

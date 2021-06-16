@@ -1,2 +1,0 @@
-me/river/shared/BuildConfig.java
- me.river.shared.BuildConfig
