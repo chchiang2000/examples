@@ -6,19 +6,24 @@ require 'vendor/autoload.php';
 $dbhost = 'localhost:27017';
 
 // $dbname = 'GettingStarted';
-$dbname = 'test';
+$dbname = 'local';
 
-echo (class_exists("MongoDB\Driver\Manager")), "<br>";
+// echo (class_exists("MongoDB\Driver\Manager")), "<br>";
 
-echo "test<br>";
+// echo "test<br>";
 
 $mongoClient = new MongoDB\Driver\Manager('mongodb://' . $dbhost);
 
 // $mongoClient = new MongoClient('mongodb://' . $dbhost);
 
-echo "test1<br>";
+// echo "test1<br>";
 
 $db = $mongoClient->$dbname;
 
-echo "Hello World!<br>";
+// echo "Hello World!<br>";
+
+$collection = $db->startup_log;
+
+echo "test2";
+
 ?>
